@@ -17,11 +17,13 @@ h1, h2{
 }
 
 /* head styles */
+
 header h1{
 	color: white;
 	font-size: 50px;
 }
 
+/* head "avatar" style */
 header img{
 	border-radius: 170px;
 	width: 300px;
