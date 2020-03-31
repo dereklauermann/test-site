@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- Put bootstrap grid first so our styles overwrite -->
+    <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inknut+Antiqua&display=swap" rel="stylesheet">
   </head>
@@ -21,24 +23,38 @@
 
 <!-- Top Header -->
 	<header>
-		<h1>Hi, i’m<br>
-		Derek Lauermann</h1>
-		<!-- Create class to differentiate text style in CSS -->
-		<ul class="skills-list">
-			<li>_Graphic & UX designer</li>
-  			<li>_Graduated from Artistic University in Amsterdam</li>
-  			<li>_8+ years of experience</li>
-  			<li>_Collaborating with many successful startups and companies</li>
-  			<li>_Speaking at various conferences for designers</li>
-  		</ul>
-  	<a href="">Add me on LinkedIn</a>
+<!-- Container for head makes top area and seperates into two columns, div is closed for container at end of header -->
+	<div class="container">
+<!-- If you click on div it underlines that and closing div -->
+  		<div class="row">
+<!-- Left column -->
+  			<div class="col-sm">
+				<h1>Hi, i’m<br>
+				Derek Lauermann</h1>
+<!-- Create class to differentiate text style in CSS -->
+			<ul class="skills-list">
+				<li>_Graphic & UX designer</li>
+	  			<li>_Graduated from Artistic University in Amsterdam</li>
+	  			<li>_8+ years of experience</li>
+	  			<li>_Collaborating with many successful startups and companies</li>
+	  			<li>_Speaking at various conferences for designers</li>
+	  		</ul>
+	  		<a href="">Add me on LinkedIn</a>
+<!-- Closing div for column or col-sm -->
+	  	</div>
 
 
 <!-- Image with Caption Under Header -->
-  	<figure>
-  		<img src="img/derekdog.jpg" alt="Derek and his dog Kaipo">
-  			<figcaption>Derek and his dog Kaipo</figcaption>
-  	</figure>
+	<!-- Right column -->
+		<div class="col-sm">
+  			<figure>
+  				<img src="img/derekdog.jpg" alt="Derek and his dog Kaipo">
+  				<figcaption>Derek and his dog Kaipo</figcaption>
+  			</figure>
+  <!-- Div closed from header container and column, row, container -->
+			</div>
+  		</div>
+  	</div>
 	</header>
 
 <!-- Experience Section -->
