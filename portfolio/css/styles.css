@@ -1,0 +1,13 @@
+/*! Plex Mono used for all body */
+body {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+/*! headers and lists have antiqua */
+/*! create classes to differentiate header list font 
+from other lists (skills list under top header) */
+h1, h2, .skills-list {
+	font-family: 'Inknut Antiqua', serif;
+}
+
+
