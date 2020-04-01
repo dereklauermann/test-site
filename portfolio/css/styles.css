@@ -10,4 +10,7 @@ h1, h2, .skills-list {
 	font-family: 'Inknut Antiqua', serif;
 }
 
-
+/*! This limits width of image to max (100%) width of the parent */
+img {
+	max-width: 100%;
+}
