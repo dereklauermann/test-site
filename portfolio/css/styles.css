@@ -3,6 +3,12 @@ body {
 	font-family: 'IBM Plex Mono', monospace;
 }
 
+/*! made top of page have 0 margin (need, b/w body and ul) */
+body, ul {
+	margin: 0;
+	padding: 0;
+}
+
 /*! headers and lists have antiqua */
 /*! create classes to differentiate header list font 
 from other lists (skills list under top header) */
@@ -13,4 +19,31 @@ h1, h2, .skills-list {
 /*! This limits width of image to max (100%) width of the parent */
 img {
 	max-width: 100%;
+}
+
+/*! Top navigation color */
+/*! Makes nav fixed at top */
+/*! Z tells browser to take front using 1 (bigger than 0 for front) */
+/*! Stretch nav with width */
+nav {
+    background-color: #DBEBF4;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+/*! Top navigation for making text take up just space it needs */
+/*! Edit in inspect to see what it does, ex 10px space between */
+/*! 0 refers to top and bottom nav (text moving) and 15 left and right*/
+nav ul li {
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0;
+}
+
+/*! Centers Nav and puts bigger padding around it */
+nav ul {
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
 }
