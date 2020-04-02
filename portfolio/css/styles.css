@@ -39,6 +39,8 @@ nav ul li {
 	display: inline-block;
 	margin: 0 15px;
 	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 /*! Centers Nav and puts bigger padding around it */
@@ -47,3 +49,22 @@ nav ul {
 	text-align: center;
 	padding: 30px;
 }
+
+/*! Makes images and nav have space so image isnt overlapping at top */
+header {
+    top: 110px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
