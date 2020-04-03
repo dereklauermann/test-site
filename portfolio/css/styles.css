@@ -73,7 +73,7 @@ header {
     top: 70px;
     position: relative;
     margin-bottom: 220px;
-    background-image: url(../img/background.png);
+    background-color: #DBEBF4;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -145px;
