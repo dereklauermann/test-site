@@ -51,6 +51,22 @@ nav ul {
 	padding: 30px;
 }
 
+li.empty {
+	width: 90px;
+	border-top: 1px solid black;
+	top: -5px;
+	position: relative;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
 /*! Makes images and nav have space so image isnt overlapping at top */
 /*! Background is image color and diff from nav bar color above */
 header {
@@ -68,9 +84,22 @@ h1 {
 	line-height: 130%;
 }
 
+h2 {
+	font-size: 30px;
+	line-height: 130%;
+}
+
+h1 h2 {
+	font-weight: normal;
+}
+
 u, li {
 	list-style: none;
 	margin: 10px 0;
+}
+
+p {
+	line-height: 150%;
 }
 
 /*! Add me on linkedin button */
@@ -83,22 +112,61 @@ u, li {
 	margin-top: 40px;
 	display: inline-block;
 	border-radius: 20px;
+	transition: background 0.3s ease-in-out, color .3s ease-in-out;
 }
+
+.button:hover{
+	background-color: black;
+	color: white;
+}
+
 
 figcaption {
 	font-size: 10px;
+	margin-top: 10px;
 }
 
 /*! . whatever is the class specifics */
 .intro-img{
 	box-shadow: 1px 2px 30px rgba(0,0,0,.2);
 	margin-top: 30px;
-	margin-bottom: 10px;
 }
 
+.skills-list {
+	text-align: center;
+	font-size: 50px;
+	line-height: 150%;
+	margin-bottom: 130px;
+}
 
+/*! Project class lets me space out projects to look nice */
+.project {
+	margin: 30px 0;
+	padding: 50px;
+}
 
+.blue {
+	background-color: #DBEBF4;
+}
 
+.project .button {
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	margin-left: 100px;
+}
+
+/*! Finds h2 within footer */
+footer h2 {
+	font-size: 50px;
+	margin-bottom: 100px;
+}
+
+.right-alignment {
+	text-align: right;
+}
 
 
 

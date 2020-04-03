@@ -14,34 +14,36 @@
   <body>
   	<nav>
   		<ul>
-  			<li>contact</li>
-  			<li>works</li>
-  			<li>experience</li>
-  			<li>linkedin</li>
+  			<li><a href="#contact">contact</a></li>
+  			<li><a href="#projects">experience</a></li>
+  			<li><a href="#skills">skills</a></li>
+  			<li class="empty"></li>
+  			<li><a href="#experience">achievements</a></li>
+  			<li><a href="https://www.linkedin.com/in/derek-lauermann-262177127" target="blank">LinkedIn</a></li>
+  			<li><a href="https://www.facebook.com/business/success/3-love-your-melon" target="blank">case study</a></li>
   		</ul>
   	</nav>
 
 
 <!-- Top Header -->
-	<header>
+	<header id="experience">
 <!-- Container for head makes top area and seperates into two columns, div is closed for container at end of header -->
 	<div class="container">
 <!-- If you click on div it underlines that and closing div -->
   		<div class="row">
 <!-- Left column -->
   			<div class="col-sm">
-				<h1>Hi, i’m<br>
-				Derek Lauermann</h1>
-<!-- Create class to differentiate text style in CSS -->
+				<h1>Hi, i’m<br> 
+				Derek L</h1>
 			<ul>
 				<li>_Graduated Summa Cum Laude</li>
 	  			<li>_Featured in Facebook Business</li>
 	  			<li>_Certified in Google Analytics</li>
 	  			<li>_Certified in Hubspot Marketing</li>
-	  			<li>_Knowledge of CSS and HTML</li>
+	  			<li>_Self taught CSS and HTML</li>
 	  			<li>_Assisted in starting IGI - Turnkey Global Solutions</li>
 	  		</ul>
-	  		<a href="" class="button">Add me on LinkedIn</a>
+	  		<a href="https://www.linkedin.com/in/derek-lauermann-262177127" class="button" target="blank">Add me on LinkedIn</a>
 <!-- Closing div for column or col-sm -->
 	  	</div>
 
@@ -61,55 +63,57 @@
 	</header>
 
 <!-- Experience Section -->
-<section>
+<section id="skills">
+<!-- Create class to differentiate text style in CSS -->
 	<ul class="skills-list">
-	<li>01_graphic design</li>
-	<li>02_user experience</li>
-	<li>03_user interface design</li>
-	<li>04_design thinking</li>
-	<li>05_user research</li>
+	<li>01_Social Media Ads Expert</li>
+	<li>02_Google Analytics Specialist</li>
+	<li>03_Skilled in Adobe Suite</li>
+	<li>04_CSS and HTML Basics</li>
+	<li>05_Team Leader</li>
 	</ul>
 </section>
 
 <!-- Projects Section -->
 
 <!-- Projects 1 image left side -->
-<section>
+<section class="project blue" id="projects">
 	<div class="container">
   		<div class="row">
 <!-- Left column -->
   		<div class="col-sm">
 			<figure>
 			<img src="img/cosmetics.jpg" alt="Cosmetics Image">
-		<figcaption>Cosmetics image</figcaption>
+		<figcaption class="right-alignment">
+		Cosmetics image
+		</figcaption>
 		</figure>
 	</div>
 
 <!-- Projects 1 header right side (col sm is right column) -->
 			<div class="col-sm">
-				<h2>branding strategy<br/>
-				for female cosmetics</h2>
+				<h2>Love YourMelon</h2>
 
 <!-- Projects 1 text right side -->
 		<p>Lorem ipsum dolor amet sartorial quinoa 3 wolf moon, tilde neutra succulents vegan kitsch church-key vaporware. Pork belly thundercats iPhone tilde 90’s ugh. Narwhal post-ironic VHS affogato subway tile. Everyday carry copper mug art party, blue bottle normcore banh mi gastropub lomo fingerstache four dollar toast single-origin coffee hell of 3 wolf moon palo santo kinfolk.</p>
 
 <!-- Projects 1 read more button -->
-		<a href="">Read More</a>
+		<a href="" class="button">Read More</a>
 			</div>
 		</div>
 	</div>
 </section>
 
  <!-- Projects 2 -->
-<section>
+<section class="project">
  	<div class="container">
   		<div class="row">
 <!-- Left column -->
-  		<div class="col-sm">
+  		<div class="col-sm right-alignment">
 		 	<h2>user experience design</br>
 				for dashboard app</h2>
 			<p>Lorem ipsum dolor amet sartorial quinoa 3 wolf moon, tilde neutra succulents vegan kitsch church-key vaporware. Pork belly thundercats iPhone tilde 90’s ugh. Narwhal post-ironic VHS affogato subway tile. Everyday carry copper mug art party, blue bottle normcore banh mi gastropub lomo fingerstache four dollar toast single-origin coffee hell of 3 wolf moon palo santo kinfolk.</p>
-		 	<a href="">Read More</a>
+		 	<a href="" class="button">Read More</a>
 		 </div>
 <!-- Right column -->
 		<div class="col-sm">
@@ -123,14 +127,14 @@
 </section>
 
 <!-- Projects 3 -->
-<section>
+<section class="project blue">
 	<div class="container">
   		<div class="row">
 <!-- Left column -->
   		<div class="col-sm">
 		<figure>
 			<img src="img/ipad-app.jpg" alt="ipad-app image">
-			<figcaption>
+			<figcaption class="right-alignment">
 				Ipad app image
 			</figcaption>
 		</figure>
@@ -141,6 +145,7 @@
 			<h2>ipad app</br>
 			for the artists</h2>
 			<p>Lorem ipsum dolor amet sartorial quinoa 3 wolf moon, tilde neutra succulents vegan kitsch church-key vaporware. Pork belly thundercats iPhone tilde 90’s ugh. Narwhal post-ironic VHS affogato subway tile. Everyday carry copper mug art party, blue bottle normcore banh mi gastropub lomo fingerstache four dollar toast single-origin coffee hell of 3 wolf moon palo santo kinfolk.</p>
+			<a href="" class="button">Read More</a>
 		</div>
 	</div>
 </div>
@@ -148,9 +153,9 @@
 
 <!-- footer  -->
 <section>
-	<footer>
+	<footer id="contact">
 		<h2>any questions?</br>
-		find me here jane@jane.jane</h2>
+		find me here: derek@loveyourmelon.com</h2>
 		<p>designed & developed by Derek Lauermann 2020</p>
 	</footer>
 </section>
