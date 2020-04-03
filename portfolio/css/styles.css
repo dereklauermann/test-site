@@ -41,6 +41,7 @@ nav ul li {
 	padding: 0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-size: 14px;
 }
 
 /*! Centers Nav and puts bigger padding around it */
@@ -51,16 +52,49 @@ nav ul {
 }
 
 /*! Makes images and nav have space so image isnt overlapping at top */
+/*! Background is image color and diff from nav bar color above */
 header {
-    top: 110px;
+    top: 70px;
     position: relative;
+    margin-bottom: 220px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -145px;
 }
 
+h1 {
+	font-size: 100px;
+	line-height: 130%;
+}
 
+u, li {
+	list-style: none;
+	margin: 10px 0;
+}
 
+/*! Add me on linkedin button */
+/*! Inline black lets me change margin because of inline above */
+.button {
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	padding: 10px 30px;
+	margin-top: 40px;
+	display: inline-block;
+	border-radius: 20px;
+}
 
+figcaption {
+	font-size: 10px;
+}
 
-
+/*! . whatever is the class specifics */
+.intro-img{
+	box-shadow: 1px 2px 30px rgba(0,0,0,.2);
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
 
 
 
