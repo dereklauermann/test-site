@@ -1,181 +1,167 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Portfolio</title>
-    <!-- Put bootstrap grid first so our styles overwrite -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inknut+Antiqua&display=swap" rel="stylesheet">
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Portfolio</title>
+  <!-- Put bootstrap grid first so our styles overwrite -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inknut+Antiqua&display=swap" rel="stylesheet">
+</head>
 
 <!-- Nav Bar Header -->
-  <body>
-  	<nav>
-  		<ul>
-  			<li><a href="#contact">contact</a></li>
-  			<li><a href="#projects">experience</a></li>
-  			<li><a href="#skills">skills</a></li>
-  			<li class="empty"></li>
-  			<li><a href="#experience">achievements</a></li>
-  			<li><a href="https://www.linkedin.com/in/derek-lauermann-262177127" target="blank">LinkedIn</a></li>
-  			<li><a href="https://www.facebook.com/business/success/3-love-your-melon" target="blank">case study</a></li>
-  		</ul>
-  	</nav>
+
+<body class="container">
+  <div class="row">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#projects">experience</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li class="empty"></li>
+        <li><a href="#experience">achievements</a></li>
+        <li><a href="https://www.linkedin.com/in/derek-lauermann-262177127" target="blank">LinkedIn</a></li>
+        <li><a href="https://www.facebook.com/business/success/3-love-your-melon" target="blank">case study</a></li>
+      </ul>
+    </nav>
+  </div>
 
 
-<!-- Top Header -->
-	<header id="experience">
-<!-- Container for head makes top area and seperates into two columns, div is closed for container at end of header -->
-	<div class="container">
-<!-- If you click on div it underlines that and closing div -->
-  		<div class="row">
-<!-- Left column -->
-  			<div class="col-sm">
-				<h1>Hello, </br>
-				I'm Derek</h1>
-			<ul>
-				<li>_Graduated Summa Cum Laude</li>
-	  			<li>_Featured in Facebook Business</li>
-	  			<li>_Certified in Google Analytics</li>
-	  			<li>_Certified in Hubspot Marketing</li>
-	  			<li>_Self taught CSS and HTML</li>
-	  			<li>_Assisted in starting IGI - Turnkey Global Solutions</li>
-	  		</ul>
-	  		<a href="https://www.linkedin.com/in/derek-lauermann-262177127" class="button" target="blank">Add me on LinkedIn</a>
-<!-- Closing div for column or col-sm -->
-	  	</div>
+  <!-- Top Header -->
+  <div class="row header" id="experience">
+    <!-- Container for head makes top area and seperates into two columns, div is closed for container at end of header -->
+    <!-- If you click on div it underlines that and closing div -->
+    <!-- Left column -->
+    <div class="col-sm">
+      <h1>Hello,</br>
+        I'm Derek</h1>
+      <ul>
+        <li>_Graduated Summa Cum Laude</li>
+        <li>_Featured in Facebook Business</li>
+        <li>_Certified in Google Analytics</li>
+        <li>_Certified in Hubspot Marketing</li>
+        <li>_Self taught CSS and HTML</li>
+        <li>_Assisted in starting IGI - Turnkey Global Solutions</li>
+      </ul>
+      <a href="https://www.linkedin.com/in/derek-lauermann-262177127" class="button" target="blank">Add me on LinkedIn</a>
+      <!-- Closing div for column or col-sm -->
+    </div>
 
 
-<!-- Image with Caption Under Header -->
-	<!-- Right column -->
-		<div class="col-sm">
-  			<figure>
-  				<!-- Class helps style specifics in CSS-->
-  				<img src="img/derekdog.jpg" class="intro-img" alt="Derek and his dog Kaipo">
-  				<figcaption>Derek and his dog Kaipo</figcaption>
-  			</figure>
-  <!-- Div closed from header container and column, row, container -->
-			</div>
-  		</div>
-  	</div>
-	</header>
+    <!-- Image with Caption Under Header -->
+    <!-- Right column -->
+    <div class="col-sm">
+      <figure>
+        <!-- Class helps style specifics in CSS-->
+        <img src="img/derekdog.jpg" class="intro-img" alt="Derek and his dog Kaipo">
+        <figcaption>Derek and his dog Kaipo</figcaption>
+      </figure>
+      <!-- Div closed from header container and column, row, container -->
+    </div>
+  </div>
 
-<!-- Experience Section -->
-<section id="skills">
-<!-- Create class to differentiate text style in CSS -->
-	<ul class="skills-list">
-	<li>01_Social Media Ads Expert</li>
-	<li>02_Google Analytics Specialist</li>
-	<li>03_Skilled in Adobe Suite</li>
-	<li>04_CSS and HTML Basics</li>
-	<li>05_Team Leader</li>
-	</ul>
-</section>
+  <!-- Experience Section -->
+  <div id="skills" class="row">
+    <div class="col">
+      <!-- Create class to differentiate text style in CSS -->
+      <ul class="skills-list">
+        <li>01_Social Media Ads Expert</li>
+        <li>02_Google Analytics Specialist</li>
+        <li>03_Skilled in Adobe Suite</li>
+        <li>04_CSS and HTML Basics</li>
+        <li>05_Team Leader</li>
+      </ul>
+    </div>
+  </div>
 
-<!-- Projects Section -->
+  <!-- Projects Section -->
 
-<!-- Projects 1 image left side -->
-<section class="project blue" id="projects">
-	<div class="container">
-  		<div class="row">
-<!-- Left column -->
-  		<div class="col-sm">
-			<figure>
-			<a href="https://www.facebook.com/business/success/3-love-your-melon" target="_blank"><img src="img/lym-study-large.jpg"></a>
-		<figcaption class="right-alignment">
-		LYM Facebook Business Snapshot
-		</figcaption>
-		</figure>
-	</div>
+  <!-- Projects 1 image left side -->
+  <div class="row">
+    <div class="col blue project" id="projects">
+      <!-- Left column -->
+      <div class="col-sm">
+        <figure>
+          <a href="https://www.facebook.com/business/success/3-love-your-melon" target="_blank"><img src="img/lym-study-large.jpg"></a>
+          <figcaption class="right-alignment">
+            LYM Facebook Business Snapshot
+          </figcaption>
+        </figure>
+      </div>
 
-<!-- Projects 1 header right side (col sm is right column) -->
-			<div class="col-sm">
-				<h2>Love YourMelon</h2>
+      <!-- Projects 1 header right side (col sm is right column) -->
+      <div class="col-sm">
+        <h2>Love YourMelon</h2>
 
-<!-- Projects 1 text right side -->
-		<p>As Advertising Manager at Love Your Melon, my main goal is to drive sales and efficiency so we can make the biggest impact possible for children battling cancer. Highlights from my time here include: Being featured in Facebook business, Managing 7 figures worth of ad spend and growing Pinterest Sales 7% while using 21% less ad spend. </p>
+        <!-- Projects 1 text right side -->
+        <p>As Advertising Manager at Love Your Melon, my main goal is to drive sales and efficiency so we can make the biggest impact possible for children battling cancer. Highlights from my time here include: Being featured in Facebook business,
+          Managing 7 figures worth of ad spend and growing Pinterest Sales 7% while using 21% less ad spend. </p>
 
-<!-- Projects 1 read more button -->
-		<a href="https://loveyourmelon.com/" target=blank class="button">Company Site</a>
-			</div>
-		</div>
-	</div>
-</section>
+        <!-- Projects 1 read more button -->
+        <a href="https://loveyourmelon.com/" target=blank class="button">Company Site</a>
+      </div>
+    </div>
+  </div>
 
- <!-- Projects 2 -->
-<section class="project">
- 	<div class="container">
-  		<div class="row">
-<!-- Left column -->
-  		<div class="col-sm right-alignment">
-		 	<h2>Thomson Reuters</h2>
-			<p>As a Marketer at Thomson Reuters, my main goal was to make teams more efficient by utlizing and interpreting valuable data. Highlights from my time here included: Creating a playbook for the sales team to drive revenue using data, developing internal website pages to improve efficiency across teams and supporting new product launches.  </p>
-		 	<a href="https://www.thomsonreuters.com/en.html" target=blank class="button">Company Site</a>
-		 </div>
-<!-- Right column -->
-		<div class="col-sm">
- 		<figure>
-			<img src="img/dashboard-app.jpg" alt="Thomson Reuters Logo">
-			<figcaption>Thomson Reuters Logo</figcaption>
-		</figure>
-		</div>
-		</div>
-	</div>
-</section>
+  <!-- Projects 2 -->
+  <div class="row">
+    <div class="col project">
+      <!-- Left column -->
+      <div class="col-sm right-alignment">
+        <h2>Thomson Reuters</h2>
+        <p>As a Marketer at Thomson Reuters, my main goal was to make teams more efficient by utlizing and interpreting valuable data. Highlights from my time here included: Creating a playbook for the sales team to drive revenue using data,
+          developing internal website pages to improve efficiency across teams and supporting new product launches. </p>
+        <a href="https://www.thomsonreuters.com/en.html" target=blank class="button">Company Site</a>
+      </div>
+      <!-- Right column -->
+      <div class="col-sm">
+        <figure>
+          <img src="img/dashboard-app.jpg" alt="Thomson Reuters Logo">
+          <figcaption>Thomson Reuters Logo</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 
-<!-- Projects 3 -->
-<section class="project blue">
-	<div class="container">
-  		<div class="row">
-<!-- Left column -->
-  		<div class="col-sm">
-		<figure>
-			<img src="img/ipad-app.jpg" alt="ipad-app image">
-			<figcaption class="right-alignment">
-				Ipad app image
-			</figcaption>
-		</figure>
-		</div>
+  <!-- Projects 3 -->
+  <div class="row">
+    <div class="col blue project">
+      <!-- Left column -->
+      <div class="col-sm">
+        <figure>
+          <img src="img/ipad-app.jpg" alt="ipad-app image">
+          <figcaption class="right-alignment">
+            Ipad app image
+          </figcaption>
+        </figure>
+      </div>
 
-<!-- Right column -->
-		<div class="col-sm">
-			<h2>IGI</br>
-			Turnkey Gobal Solutions</h2>
-			<p>As a Marketing Analyst at IGI, my main goal was to assist in starting the business. Highlights from my time here included: Managing partners for website and support materials, Benchmarking competitiors and creating a social media approach, and collaborating regularly with the CEO to ensure company teamwork and growth.</p>
-			<a href="https://www.igiturnkey.com/" target=blank class="button">Company Site</a>
-		</div>
-	</div>
-</div>
-</section>
+      <!-- Right column -->
+      <div class="col-sm">
+        <h2>IGI</br>
+          Turnkey Gobal Solutions</h2>
+        <p>As a Marketing Analyst at IGI, my main goal was to assist in starting the business. Highlights from my time here included: Managing partners for website and support materials, Benchmarking competitiors and creating a social media
+          approach, and collaborating regularly with the CEO to ensure company teamwork and growth.</p>
+        <a href="https://www.igiturnkey.com/" target=blank class="button">Company Site</a>
+      </div>
+    </div>
+  </div>
 
-<!-- footer  -->
-<section>
-	<footer id="contact">
-		<h2>Any questions?</br>
-		Find me here: derek@loveyourmelon.com</h2>
-		<p>Designed & developed by Derek Lauermann 2020</p>
-	</footer>
-</section>
-
- </body>
+  <!-- footer  -->
+  <div class="row">
+    <div class="col">
+      <footer id="contact">
+        <h2>Any questions?</br>Find me here:</h2>
+        <h4>derek@loveyourmelon.com</h4>
+        <p>Designed & developed by Derek Lauermann 2020</p>
+      </footer>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

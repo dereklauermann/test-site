@@ -5,12 +5,12 @@ body {
 
 /*! made top of page have 0 margin (need, b/w body and ul) */
 body, ul {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 }
 
 /*! headers and lists have antiqua */
-/*! create classes to differentiate header list font 
+/*! create classes to differentiate header list font
 from other lists (skills list under top header) */
 h1, h2, .skills-list {
 	font-family: 'Inknut Antiqua', serif;
@@ -45,11 +45,11 @@ nav ul li {
 }
 
 /*! Centers Nav and puts bigger padding around it */
-nav ul {
+/* nav ul {
 	margin: 0 auto;
 	text-align: center;
 	padding: 30px;
-}
+} */
 
 li.empty {
 	width: 90px;
@@ -69,25 +69,25 @@ nav li a:hover {
 
 /*! Makes images and nav have space so image isnt overlapping at top */
 /*! Background is image color and diff from nav bar color above */
-header {
-    top: 70px;
-    position: relative;
-    margin-bottom: 220px;
+.header {
+    /* top: 70px; */
+    /* position: relative; */
+    /* margin-bottom: 220px; */
     background-color: #DBEBF4;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -145px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position-y: -145px; */
 }
 
 h1 {
-	font-size: 100px;
+	/* font-size: 100px; */
 	line-height: 130%;
 }
 
-h2 {
+/* h2 {
 	font-size: 30px;
 	line-height: 130%;
-}
+} */
 
 h1 h2 {
 	font-weight: normal;
@@ -134,9 +134,9 @@ figcaption {
 
 .skills-list {
 	text-align: center;
-	font-size: 50px;
-	line-height: 150%;
-	margin-bottom: 130px;
+	/* font-size: 50px; */
+	/* line-height: 150%; */
+	/* margin-bottom: 130px; */
 }
 
 /*! Project class lets me space out projects to look nice */
@@ -155,18 +155,15 @@ figcaption {
 
 footer {
 	text-align: center;
-	margin-left: 100px;
+	/* margin-left: 100px; */
 }
 
 /*! Finds h2 within footer */
-footer h2 {
+/* footer h2 {
 	font-size: 50px;
 	margin-bottom: 100px;
-}
+} */
 
 .right-alignment {
 	text-align: right;
 }
-
-
-
