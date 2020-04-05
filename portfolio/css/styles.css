@@ -51,12 +51,6 @@ nav ul {
 	padding: 30px;
 }
 
-li.empty {
-	width: 90px;
-	border-top: 1px solid black;
-	top: -5px;
-	position: relative;
-}
 
 nav li a {
 	text-decoration: none !important; 
@@ -196,6 +190,7 @@ footer {
 	background-color: black;
 	color: white;
 }
+
 
 
 
