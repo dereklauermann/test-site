@@ -65,6 +65,7 @@ nav li a {
 
 nav li a:hover {
 	text-decoration: underline;
+	color: black;
 }
 
 /*! Makes images and nav have space so image isnt overlapping at top */
@@ -106,7 +107,7 @@ p {
 /*! Inline black lets me change margin because of inline above */
 .button {
 	border: 1px solid black;
-	text-decoration: none;
+	text-decoration: none !important;
 	color: black;
 	padding: 10px 30px;
 	margin-top: 40px;
@@ -134,7 +135,8 @@ figcaption {
 
 .skills-list {
 	text-align: center;
-	/* font-size: 50px; */
+	font-size: 20px; 
+	padding-top: 20px;
 	/* line-height: 150%; */
 	/* margin-bottom: 130px; */
 }
@@ -167,3 +169,32 @@ footer {
 .right-alignment {
 	text-align: right;
 }
+
+.intro-text {
+	padding-top: 20px;
+	text-align: center; !important;
+	padding-left: 30px;
+}
+
+.achievements-list {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.button-top {
+	text-align: center !important;
+	border: 1px solid black;
+	text-decoration: none !important;
+	color: black;
+	padding: 10px 30px;
+	margin-top: 40px;
+	display: inline-block;
+	border-radius: 20px;
+	transition: background 0.3s ease-in-out, color .3s ease-in-out;
+}
+
+.button-top:hover{
+	background-color: black;
+	color: white;
+}
+
