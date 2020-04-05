@@ -59,12 +59,12 @@ li.empty {
 }
 
 nav li a {
-	text-decoration: none;
-	color: black;
+	text-decoration: none !important; 
+	color: black!important; 
 }
 
 nav li a:hover {
-	text-decoration: underline;
+	text-decoration: underline !important;  
 	color: black;
 }
 
@@ -196,4 +196,6 @@ footer {
 	background-color: black;
 	color: white;
 }
+
+
 
