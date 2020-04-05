@@ -45,11 +45,11 @@ nav ul li {
 }
 
 /*! Centers Nav and puts bigger padding around it */
-/* nav ul {
+nav ul {
 	margin: 0 auto;
 	text-align: center;
 	padding: 30px;
-} */
+}
 
 li.empty {
 	width: 90px;
