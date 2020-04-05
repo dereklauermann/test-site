@@ -65,7 +65,7 @@ nav li a {
 
 nav li a:hover {
 	text-decoration: underline !important;  
-	color: black;
+	color: black !important;
 }
 
 /*! Makes images and nav have space so image isnt overlapping at top */
