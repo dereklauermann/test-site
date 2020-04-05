@@ -5,8 +5,8 @@ body {
 
 /*! made top of page have 0 margin (need, b/w body and ul) */
 body, ul {
-	/* margin: 0;
-	padding: 0; */
+	margin: 0;
+	padding: 0; 
 }
 
 /*! headers and lists have antiqua */
