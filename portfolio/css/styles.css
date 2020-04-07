@@ -66,6 +66,7 @@ nav li a:hover {
 .header {
     top: 50px;
     /*! position: relative; */
+    margin-top: 55px;
     margin-bottom: 100px; 
     background-color: #DBEBF4;
     background-repeat: no-repeat; 
@@ -178,6 +179,7 @@ footer {
 .achievements-list {
 	text-align: center !important;
 	padding-top: 20px;
+	padding-left: 0px;
 }
 
 .button-top {
