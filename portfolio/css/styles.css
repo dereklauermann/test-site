@@ -3,11 +3,10 @@ body {
 	font-family: 'IBM Plex Mono', monospace;
 }
 
-/*! made top of page have 0 margin (need, b/w body and ul) */
-body, ul {
-	margin: 0;
+/* made top of page have 0 margin (need, b/w body and ul) */
+/* 	margin: 0;
 	padding: 0; 
-}
+}*/
 
 /*! headers and lists have antiqua */
 /*! create classes to differentiate header list font
@@ -66,7 +65,7 @@ nav li a:hover {
 /*! Background is image color and diff from nav bar color above */
 .header {
     top: 50px;
-    position: relative;
+    /*! position: relative; */
     margin-bottom: 100px; 
     background-color: #DBEBF4;
     background-repeat: no-repeat; 
@@ -141,9 +140,9 @@ figcaption {
 	/* margin-bottom: 130px; */
 }
 
-/*! Project class lets me space out projects to look nice */
+/* Project class lets me space out projects to look nice */
 .project {
-	margin: 30px 0;
+	/* margin: 30px 0; */
 	padding: 50px;
 }
 
@@ -160,9 +159,6 @@ footer {
 	/* margin-left: 100px; */
 }
 
-.align-items-center {
-	text-align: center !important;
-}
 
 /*! Finds h2 within footer */
 /* footer h2 {
