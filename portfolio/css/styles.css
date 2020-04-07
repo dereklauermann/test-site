@@ -156,8 +156,12 @@ figcaption {
 }
 
 footer {
-	text-align: center;
+	text-align: center !important;
 	/* margin-left: 100px; */
+}
+
+.align-items-center {
+	text-align: center !important;
 }
 
 /*! Finds h2 within footer */
