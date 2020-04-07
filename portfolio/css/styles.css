@@ -27,7 +27,7 @@ img {
 /*! Stretch nav with width */
 nav {
     background-color: #DBEBF4;
-    position: fixed;
+    position: fixed !important;
     z-index: 1;
     width: 100%;
 }
@@ -65,13 +65,13 @@ nav li a:hover {
 /*! Makes images and nav have space so image isnt overlapping at top */
 /*! Background is image color and diff from nav bar color above */
 .header {
-    /* top: 70px; */
-    /* position: relative;
-    /* margin-bottom: 220px; */
+    top: 50px;
+    position: relative;
+    margin-bottom: 100px; 
     background-color: #DBEBF4;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position-y: -145px; */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position-y: -145px;
 }
 
 h1 {
@@ -119,12 +119,17 @@ p {
 figcaption {
 	font-size: 10px;
 	margin-top: 10px;
+	text-align: center !important;
 }
 
 /*! . whatever is the class specifics */
 .intro-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	box-shadow: 1px 2px 30px rgba(0,0,0,.2);
-	margin-top: 30px;
+	margin-top: 65px;
+	width: 60%
 }
 
 .skills-list {
@@ -165,7 +170,7 @@ footer {
 }
 
 .intro-text {
-	padding-top: 20px;
+	padding-top: 60px;
 	text-align: center !important; 
 }
 
@@ -175,13 +180,16 @@ footer {
 }
 
 .button-top {
+	justify-content: center !important;
+	display: flex;
 	text-align: center !important;
 	border: 1px solid black;
 	text-decoration: none !important;
 	color: black;
 	padding: 10px 30px;
 	margin-top: 40px;
-	display: inline-block;
+	margin-left: 120px;
+	margin-right: 120px;
 	border-radius: 20px;
 	transition: background 0.3s ease-in-out, color .3s ease-in-out;
 }
