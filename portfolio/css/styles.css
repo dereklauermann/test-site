@@ -77,7 +77,7 @@ nav li a:hover {
 
 @media(max-width: 991px){
 	.header {
-		margin-top: 0;
+		margin-top: 0 !important;
 	}
 }
 
