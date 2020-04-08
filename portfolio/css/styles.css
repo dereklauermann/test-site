@@ -29,6 +29,7 @@ nav {
     position: fixed !important;
     z-index: 1;
     width: 100%;
+    height: auto;
 }
 
 /*! Top navigation for making text take up just space it needs */
