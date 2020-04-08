@@ -75,7 +75,7 @@ nav li a:hover {
     background-position-y: -145px;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 991px){
 	.header {
 		margin-top: 0;
 	}
