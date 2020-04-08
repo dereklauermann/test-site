@@ -65,7 +65,7 @@ nav li a:hover {
 /*! Makes images and nav have space so image isnt overlapping at top */
 /*! Background is image color and diff from nav bar color above */
 .header {
-    top: 50px;
+    margin-top: 55px !important;
     /*! position: relative; */
     /* margin-top: 55px; */
     /* margin-bottom: 100px; */
@@ -73,6 +73,13 @@ nav li a:hover {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position-y: -145px;
+}
+
+@media(max-width: 991px) {
+	.header {
+		margin-top: 0;
+	}
+	}
 }
 
 h1 {
