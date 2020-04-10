@@ -149,6 +149,10 @@ figcaption {
 	/* margin-bottom: 130px; */
 }
 
+.navfix {
+	margin-top: -120px !important;
+}
+
 /* Project class lets me space out projects to look nice */
 .project {
 	/* margin: 30px 0; */
