@@ -233,11 +233,39 @@ footer {
 .spacing {
 	margin: 20px;
 	margin-bottom: 60px;
-	margin-top: 60px;
+	margin-top: 10px;
 	margin-right: 120px;
 	margin-left: 120px;
 	text-align: center;
 }
+
+.testimonial {
+	text-align: center;
+	font-family: 'Inknut Antiqua', serif;
+	background-color: #DBEBF4;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -15px;
+	font-size: 2rem;
+}
+
+@media(max-width: 991px){
+	.carousel-item {
+		font-size: 10px !important;
+	}
+}
+
+@media(max-width: 991px){
+	.spacing {
+		margin-top: 0px;
+		margin-right: 80px;
+		margin-left: 80px;
+	}
+}
+
+
+
+
 
 
 
