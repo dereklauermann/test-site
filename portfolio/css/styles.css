@@ -257,7 +257,6 @@ footer {
 
 @media(max-width: 991px){
 	.spacing {
-		margin-top: 0px;
 		margin-right: 80px;
 		margin-left: 80px;
 	}
