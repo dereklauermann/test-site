@@ -217,6 +217,25 @@ footer {
 	color: white;
 }
 
+.carouselcontrolnext {
+	color: black !important;
+}
 
+.row-testimonial {
+	background-color: #DBEBF4 !important;
+	padding: 50px !important;
+	display: flex !important;
+	margin-right: -15px !important;
+	margin-left: -15px !important;
 
+}
+
+.spacing {
+	margin: 20px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: center;
+}
 
